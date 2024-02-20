@@ -4,6 +4,8 @@ diffusion model baesd video-virtual-try-on
 
 ![result visualization](assets/allres1-10.gif)
 
+NOTE: This is a personal experimental project. The code has not been properly organized (updated according to personal circumstances), there is no ready-to-use demo, and there are no plans for publication. Thanks to [ladi-vton](https://github.com/miccunifi/ladi-vton), [DisCo](https://github.com/Wangt-CN/DisCo) for the inspiration, and any related discussions are welcome.
+
 ## Instructions
 - Improved 3D denoising UNet, improved face reconstruction performance and temporal consistency, using [VVT](https://competitions.codalab.org/competitions/23472) dataset, fine-tuning based on [stable-diffusion-2-inpainting](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting)
 - Preprocessing dataset based on [Densepose](https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose), [Human-Parsing](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing). The processed files will be uploaded soon
